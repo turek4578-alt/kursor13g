@@ -8,7 +8,7 @@ export default function ReferralsPage() {
   const { me, loading } = useMe();
   const router = useRouter();
   if (loading || !me) return null;
-  const link = `https://kurs.app/r/${me.referralCode}`;
+  const link = `https://www.okpays.exchange/r/${me.referralCode}`;
   return (
     <>
       <div className="topbar">
