@@ -1,6 +1,6 @@
 {
-  "name": "KURS — обмен криптовалют",
-  "short_name": "KURS",
+  "name": "OKPAYS.EXCHANGE — обмен криптовалют",
+  "short_name": "OKPAYS.EXCHANGE",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#10233A",
