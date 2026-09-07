@@ -10,7 +10,7 @@
 export function LogoMark({ size = 26 }: { size?: number }) {
   return (
     <span
-      className="OK"
+      className="ok"
       style={{
         width: size,
         height: size,
