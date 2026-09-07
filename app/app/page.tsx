@@ -44,7 +44,7 @@ export default function HomePage() {
     return () => clearInterval(t);
   }, []);
 
-  if (loading || !me) return <div className="topbar"><div className="logo"><LogoMark />KURS</div></div>;
+  if (loading || !me) return <div className="topbar"><div className="logo"><LogoMark />OKPAYS.EXCHANGE</div></div>;
 
   const total = Object.entries(me.balances).reduce((s, [c, v]) => s + v * (c === 'USDT' || c === 'USDC' ? 1 : (rates[c] || 0)), 0);
   const nonZero = Object.entries(me.balances).filter(([, v]) => v > 0);
@@ -52,7 +52,7 @@ export default function HomePage() {
   return (
     <>
       <div className="topbar">
-        <div className="logo"><LogoMark />KURS</div>
+        <div className="logo"><LogoMark />OKPAYS.EXCHANGE</div>
       </div>
       <div className="page">
         <div className="row" style={{ marginBottom: 12 }}>
