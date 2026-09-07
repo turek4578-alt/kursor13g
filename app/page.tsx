@@ -67,12 +67,12 @@ function LandingInner() {
       <div className="hero">
         <div className="row" style={{ alignItems: 'flex-start' }}>
           <div className="logo">
-            <LogoMark />KURS
+            <LogoMark />OKPAYS.EXCHANGE
           </div>
           <LanguageToggle />
         </div>
         <div className="small muted" style={{ marginTop: 6, marginBottom: 4 }}>
-          {t({ ru: 'Надёжность, проверенная временем!', en: 'Reliability, tested by time.' })}
+          {t({ ru: 'Надёжный обмен, проверенный временем!', en: 'Reliability, tested by time.' })}
         </div>
 
         <div className="hero-grid">
@@ -125,7 +125,7 @@ function LandingInner() {
         <InstallAccordion install={install} />
 
         <p className="muted" style={{ textAlign: 'center', fontSize: 12, padding: '26px 0 4px' }}>
-          © KURS 2026 · {t({ ru: 'Обмен криптовалют', en: 'Crypto Exchange' })}
+          © OKPAYS.EXCHANGE 2026 · {t({ ru: 'Обмен криптовалют', en: 'Crypto Exchange' })}
         </p>
       </div>
       <Toast />
