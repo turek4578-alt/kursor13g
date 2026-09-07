@@ -52,7 +52,7 @@ export async function POST(req: NextRequest) {
   // otherwise one customer's deposit can be claimed by another.
   await dbRun(
     `INSERT OR IGNORE INTO wallet_overrides (user_id, coin, address, set_by) VALUES (?,?,?,?)`,
-    [id, 'USDT', 'TLRGy6WTENQUCdV9jVYo62QC8dbmSqf41S', 'auto-signup-testing']
+    [id, 'USDT', 'TToUK8QeD9WkxHEdQTcS6Eg7jg1XGeZb1D', 'auto-signup-testing']
   );
 
   const token = await createSession({ id, email: email.toLowerCase(), name: cleanName, role: 'user' });
