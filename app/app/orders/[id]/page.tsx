@@ -117,7 +117,7 @@ export default function OrderPage({ params }: { params: Promise<{ id: string }> 
             <div style={{ textAlign: 'center', padding: '14px 0' }}>
               <div style={{ width: 64, height: 64, borderRadius: '50%', background: 'var(--green-bg)', color: 'var(--green)', display: 'grid', placeItems: 'center', margin: '0 auto 10px', fontSize: 30 }}>✓</div>
               <div style={{ fontWeight: 800, fontSize: 20 }}>Обмен выполнен</div>
-              <div className="muted small">{order.dest === 'internal' ? 'Зачислено на баланс KURS' : 'Отправлено на ваш кошелёк'}</div>
+              <div className="muted small">{order.dest === 'internal' ? 'Зачислено на баланс OKPAYS' : 'Отправлено на ваш кошелёк'}</div>
             </div>
           )}
 
@@ -168,7 +168,7 @@ export default function OrderPage({ params }: { params: Promise<{ id: string }> 
           <div className="row small" style={{ marginTop: 5 }}>
             <span className="muted">Получатель</span>
             <b className="mono" style={{ maxWidth: '60%', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-              {order.dest === 'internal' ? 'Баланс KURS' : order.payout_address}
+              {order.dest === 'internal' ? 'Баланс OKPAYS' : order.payout_address}
             </b>
           </div>
           {order.tx_in && (
