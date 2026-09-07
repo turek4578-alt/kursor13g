@@ -9,32 +9,32 @@ import { LanguageProvider, LanguageToggle, useLang } from '@/lib/i18n';
 
 const REVIEWS = [
   {
-    name: 'Азамат К.',
+    name: 'Анна К.',
     color: '#26A17B',
     ru: 'Перевёл USDT в ETH за 10 минут, курс не поплыл. Удобно, что можно на баланс, а можно сразу на кошелёк.',
     en: 'Converted USDT to ETH in 10 minutes, the rate didn\u2019t move. Nice that you can choose your balance or straight to your wallet.',
-    dateRu: '28 августа 2026', dateEn: 'August 28, 2026',
+    dateRu: '7 Сентября 2026', dateEn: 'September 7, 2026',
   },
   {
-    name: 'Нурсултан Б.',
+    name: 'Сергей Б.',
     color: '#4E5FD6',
     ru: 'Пользуюсь для регулярного обмена. Комиссия честная, без сюрпризов в конце.',
     en: 'I use it for regular exchanges. The fee is honest, no surprises at the end.',
-    dateRu: '22 августа 2026', dateEn: 'August 22, 2026',
+    dateRu: '7 Сентября 2026', dateEn: 'September 7, 2026',
   },
   {
     name: 'Диана С.',
     color: '#7B3FE4',
     ru: 'Служба поддержки ответила быстро, помогли разобраться с адресом для вывода.',
     en: 'Support replied quickly and helped me sort out the withdrawal address.',
-    dateRu: '15 августа 2026', dateEn: 'August 15, 2026',
+    dateRu: '7 Сентября 2026', dateEn: 'September 7, 2026',
   },
   {
     name: 'Тимур А.',
     color: '#F7931A',
     ru: 'Прошёл верификацию за один день, лимиты выросли сразу.',
     en: 'Got verified in one day, limits went up right away.',
-    dateRu: '9 августа 2026', dateEn: 'August 9, 2026',
+    dateRu: '6 Сентября 2026', dateEn: 'September 7, 2026',
   },
 ];
 
