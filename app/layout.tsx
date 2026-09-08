@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "KURS — обмен криптовалют",
+  title: "OKPAYS — обмен криптовалют",
   description: "USDT, ETH, BTC, SOL, TON. Курс фиксируется на 15 минут.",
   manifest: "/manifest.webmanifest",
   appleWebApp: { capable: true, statusBarStyle: "black-translucent", title: "KURS" },
